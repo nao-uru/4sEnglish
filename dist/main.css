@@ -1,4 +1,51 @@
 body {
-  background-color: #b9ecec;
+  background-color: white;
+  color: #131313;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin: 0 auto;
+}
+
+.container-xl {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container-l {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-m {
+  width: 62.5%;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 8px solid #41B2BE;
+}
+
+header img {
+  width: 240px;
+}
+
+.top {
+  background-image: url(../src/imgs/h-back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+}
+
+.top h1 {
+  font-size: 110px;
+  line-height: 100%;
+  text-shadow: 12px 12px 5px rgba(146, 146, 146, 0.25);
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  font-family: 'Poppins', sans-serif;
+}
+
+.top .main-title {
+  bottom: 10%;
+  left: 10%;
 }
 /*# sourceMappingURL=main.css.map */

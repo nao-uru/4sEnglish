@@ -16,12 +16,10 @@ body {
 }
 
 .container-m {
-  width: 62.5%;
+  max-width: 1000px;
+  min-width: 62.5%;
+  padding: 0 20px;
   margin: 0 auto;
-}
-
-header {
-  border-bottom: 8px solid #41B2BE;
 }
 
 header img {
@@ -47,5 +45,23 @@ header img {
 .top .main-title {
   bottom: 10%;
   left: 10%;
+}
+
+main .f-box {
+  border-radius: 50px;
+}
+
+main .section {
+  background-image: url(../src/imgs/s-back.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main .point h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+main .point .box {
+  width: 380px;
 }
 /*# sourceMappingURL=main.css.map */

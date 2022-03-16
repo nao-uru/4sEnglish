@@ -3,7 +3,7 @@
 
 
 header {
-  border-bottom: 8px solid $cBlue;
+
   img {
     width: 240px;
   }
@@ -29,7 +29,25 @@ header {
   }
 }
 
-.features {
+main {
 
+  .f-box {
+    border-radius: 50px;
+  }
+
+  .section {
+    background-image: url(../src/imgs/s-back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .point {
+    h4 {
+    font-family: 'Poppins', sans-serif;
+    }
+
+    .box {
+      width: 380px;
+    }
+  }
 }
-

@@ -5,7 +5,7 @@
 header {
 
   img {
-    width: 240px;
+    width: 480px;
   }
 }
 
@@ -48,6 +48,13 @@ main {
 
     .box {
       width: 380px;
+    }
+  }
+
+  .text {
+
+    .box {
+      width: 1000px;
     }
   }
 }

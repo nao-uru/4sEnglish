@@ -11,21 +11,27 @@ header {
 
 .top {
   background-image: url(../src/imgs/h-back.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 1000px;
+  padding-top: 55.5%;
+
+  .title {
+    width: 540px;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 11px 11px 43px rgba(190, 190, 190, 0.57);
+  }
 
   h1 {
-    font-size: 110px;
-    line-height: 100%;
+    font-size: 100px;
+    line-height: 70%;
     text-shadow: 12px 12px 5px rgba(146, 146, 146, 0.25);
-    transform: rotate(-5deg);
     font-family: 'Poppins', sans-serif;
   }
 
+
   .main-title {
-    bottom: 10%;
-    left: 10%;
+    bottom: 3%;
+    right: 0;
   }
 }
 

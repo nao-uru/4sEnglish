@@ -55,6 +55,10 @@ main {
     .box {
       width: 380px;
     }
+
+    .text-box {
+      border-radius: 50px;
+    }
   }
 
   .text {
@@ -62,5 +66,15 @@ main {
     .box {
       width: 1000px;
     }
+  }
+
+  .teacher {
+    .box {
+      border-radius: 60px;
+    }
+  }
+
+  .contact {
+    border-radius: 100px;
   }
 }

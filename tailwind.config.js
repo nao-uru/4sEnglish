@@ -19,7 +19,7 @@ module.exports = {
       cBlue:'#41B2BE',
       cPink:'#EE9695',
       cBlack:'#131313',
-      cBeige:'#E8DCCE',
+      cBeige:'#FBF1E6',
       cOrange:'#ED7632',
       cWhite:'#ffffff',
     }

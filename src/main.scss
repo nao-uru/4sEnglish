@@ -1,4 +1,5 @@
 @import "./common";
+@import "./responsive";
 
 
 
@@ -14,6 +15,11 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
   padding-top: 55.5%;
+
+  .box {
+    top: 5%;
+    left: 5%;
+  }
 
   .title {
     width: 540px;
@@ -58,13 +64,6 @@ main {
 
     .text-box {
       border-radius: 50px;
-    }
-  }
-
-  .text {
-
-    .box {
-      width: 1000px;
     }
   }
 

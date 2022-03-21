@@ -18,6 +18,31 @@ body {
   padding: 0 0px;
   margin: 0 auto; }
 
+@media screen and (max-width: 1279px) {
+  .top .main-title {
+    font-size: 70px; } }
+@media screen and (max-width: 1023px) {
+  main .section {
+    background-position: center; }
+  main .text .box {
+    width: 90%; }
+  main .point .box {
+    width: 600px; } }
+@media screen and (max-width: 767px) {
+  body {
+    background-color: aliceblue; }
+
+  .container-xl {
+    width: 100%;
+    margin: 0 auto; }
+
+  .contaienr-l {
+    width: 95%;
+    margin: 0 auto; }
+
+  .contaienr-m {
+    word-wrap: 80%;
+    margin: 0 auto; } }
 header img {
   width: 480px; }
 
@@ -26,6 +51,9 @@ header img {
   background-size: contain;
   background-repeat: no-repeat;
   padding-top: 55.5%; }
+  .top .box {
+    top: 5%;
+    left: 5%; }
   .top .title {
     width: 540px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -51,8 +79,6 @@ main .point .box {
   width: 380px; }
 main .point .text-box {
   border-radius: 50px; }
-main .text .box {
-  width: 1000px; }
 main .teacher .box {
   border-radius: 60px; }
 main .contact {

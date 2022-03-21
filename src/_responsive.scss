@@ -37,15 +37,23 @@
 @media screen and (max-width: 767px) {
 
   body {
-    background-color: aliceblue;
+    background-color: rgb(230, 245, 153);
   }
+
+  .top {
+    .main-title {
+      font-size: 55px;
+    }
+  }
+
+  
 
   .container-xl {
     width: 100%;
     margin: 0 auto;
   }
 
-  .contaienr-l {
+  .container-l {
     width: 95%;
     margin: 0 auto;
   }
@@ -54,10 +62,66 @@
     word-wrap: 80%;
     margin:  0 auto;
   }
+}
 
-  
-  
-  
+
+@media screen and (max-width: 639px) {
+
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .container-l {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .top {
+    .main-title {
+      font-size: 40px;
+    }
+  }
+
+  main {
+
+    .point {
+      .box {
+        width: 300px;
+      }
+    }
+
+    .f-box {
+      border-radius: 0px;
+    }
+
+    .section {
+      background-position: right;
+    }
+
+    .program {
+      table {
+        tbody {
+          td {
+            padding: 20px;
+          }
+        }
+      }
+    }
+
+    .teacher {
+      .box {
+        border-radius: 0;
+      }
+    }
+
+    .contact {
+      border-radius: 0;
+    }
+
+    
+  }
+
+
 }
 
 

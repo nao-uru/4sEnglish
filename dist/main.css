@@ -30,7 +30,7 @@ body {
     width: 600px; } }
 @media screen and (max-width: 767px) {
   body {
-    background-color: #e6f599; }
+    background-color: white; }
 
   .top .main-title {
     font-size: 55px; }
@@ -63,12 +63,12 @@ body {
     border-radius: 0px; }
   main .section {
     background-position: right; }
-  main .program table tbody td {
-    padding: 20px; }
-  main .teacher .box {
-    border-radius: 0; }
+  main .program table {
+    width: 95%; }
+    main .program table tbody td {
+      padding: 20px 3px; }
   main .contact {
-    border-radius: 0; } }
+    border-radius: 0px; } }
 header img {
   width: 480px; }
 
@@ -109,5 +109,12 @@ main .teacher .box {
   border-radius: 60px; }
 main .contact {
   border-radius: 100px; }
+
+@media screen and (max-width: 639px) {
+  main .contact {
+    border-radius: 0px; }
+  main .teacher .box {
+    width: 95%;
+    border-radius: 0px; } }
 
 /*# sourceMappingURL=main.css.map */

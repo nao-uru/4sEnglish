@@ -37,7 +37,7 @@
 @media screen and (max-width: 767px) {
 
   body {
-    background-color: rgb(230, 245, 153);
+    background-color: rgb(255, 255, 255);
   }
 
   .top {
@@ -100,22 +100,18 @@
 
     .program {
       table {
+        width: 95%;
+
         tbody {
           td {
-            padding: 20px;
+            padding: 20px 3px;
           }
         }
       }
     }
 
-    .teacher {
-      .box {
-        border-radius: 0;
-      }
-    }
-
     .contact {
-      border-radius: 0;
+      border-radius: 0px;
     }
 
     
@@ -125,3 +121,7 @@
 }
 
 
+@media screen and (max-width: 430px) {
+  
+
+}

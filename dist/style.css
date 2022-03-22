@@ -611,6 +611,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 24rem;
 }
 
+.mr-8 {
+  margin-right: 2rem;
+}
+
 .block {
   display: block;
 }
@@ -675,6 +679,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 33.333333%;
 }
 
+.w-2\/3 {
+  width: 66.666667%;
+}
+
 .w-3\/5 {
   width: 60%;
 }
@@ -701,14 +709,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-4\/5 {
   width: 80%;
-}
-
-.w-4 {
-  width: 1rem;
-}
-
-.w-2\/3 {
-  width: 66.666667%;
 }
 
 .table-auto {
@@ -774,10 +774,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .rounded-2xl {
   border-radius: 1rem;
-}
-
-.rounded-none {
-  border-radius: 0px;
 }
 
 .border-4 {
@@ -1177,6 +1173,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 1rem;
   }
 
+  .lg\:mt-8 {
+    margin-top: 2rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1219,6 +1219,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:flex-col {
     flex-direction: column;
+  }
+
+  .lg\:justify-around {
+    justify-content: space-around;
+  }
+
+  .lg\:bg-cBlue {
+    --tw-bg-opacity: 1;
+    background-color: rgb(65 178 190 / var(--tw-bg-opacity));
   }
 
   .lg\:object-cover {

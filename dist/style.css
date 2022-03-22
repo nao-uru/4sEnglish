@@ -1420,6 +1420,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 10rem;
   }
 
+  .sm\:mr-1 {
+    margin-right: 0.25rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1666,6 +1670,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xs\:mr-2 {
     margin-right: 0.5rem;
+  }
+
+  .xs\:mr-0 {
+    margin-right: 0px;
   }
 
   .xs\:w-32 {

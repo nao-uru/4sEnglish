@@ -69,8 +69,13 @@ body {
       padding: 20px 3px; }
   main .contact {
     border-radius: 0px; } }
-header img {
-  width: 480px; }
+nav {
+  width: 98%;
+  margin: 0 auto; }
+  nav img {
+    width: 450px; }
+  nav .btn {
+    background: linear-gradient(180deg, #09BDB6 0%, #44B1BE 100%); }
 
 .top {
   background-image: url(../src/imgs/h-back.png);
@@ -111,10 +116,23 @@ main .contact {
   border-radius: 100px; }
 
 @media screen and (max-width: 639px) {
+  main .f-box {
+    border-radius: 0px; }
   main .contact {
     border-radius: 0px; }
   main .teacher .box {
     width: 95%;
     border-radius: 0px; } }
+@media screen and (max-width: 639px) {
+  main .f-box {
+    border-radius: 0px; }
+  main .contact {
+    border-radius: 0px; }
+  main .teacher .box {
+    width: 95%;
+    border-radius: 0px; } }
+@media screen and (max-width: 1279px) {
+  nav img {
+    width: 300px; } }
 
 /*# sourceMappingURL=main.css.map */

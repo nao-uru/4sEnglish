@@ -103,6 +103,10 @@ nav {
     bottom: 3%;
     right: 0; }
 
+.box2 {
+  width: 100%;
+  box-shadow: 11px 11px 43px rgba(190, 190, 190, 0.57); }
+
 main .f-box {
   border-radius: 50px; }
 main .section {
@@ -143,6 +147,12 @@ main .contact {
     width: 95%;
     border-radius: 0px; } }
 @media screen and (max-width: 1279px) {
+  .top .title {
+    width: 400px; }
+  .top .box {
+    top: 2%;
+    left: 2%; }
+
   nav img {
     width: 300px; } }
 

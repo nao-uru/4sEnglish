@@ -55,6 +55,11 @@ nav {
   }
 }
 
+.box2 {
+  width: 100%;
+  box-shadow: 11px 11px 43px rgba(190, 190, 190, 0.57);
+}
+
 main {
 
   .f-box {
@@ -145,6 +150,18 @@ main {
 }
 
 @media screen and (max-width: 1279px) {
+
+  .top {
+    .title {
+      width: 400px;
+    }
+
+    .box {
+      top: 2%;
+      left: 2%;
+    }
+  }
+
   nav {
     img {
       width: 300px;

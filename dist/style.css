@@ -1253,6 +1253,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(65 178 190 / var(--tw-text-opacity));
 }
 
+.hover\:text-cWhite:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .hover\:opacity-70:hover {
   opacity: 0.7;
 }

@@ -29,9 +29,6 @@ body {
   main .point .box {
     width: 600px; } }
 @media screen and (max-width: 767px) {
-  body {
-    background-color: white; }
-
   .top .main-title {
     font-size: 55px; }
 
@@ -47,9 +44,6 @@ body {
     word-wrap: 80%;
     margin: 0 auto; } }
 @media screen and (max-width: 639px) {
-  body {
-    background-color: white; }
-
   .container-l {
     width: 90%;
     margin: 0 auto; }

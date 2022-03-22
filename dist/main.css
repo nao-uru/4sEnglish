@@ -82,6 +82,8 @@ nav {
   background-size: contain;
   background-repeat: no-repeat;
   padding-top: 55.5%; }
+  .top nav a {
+    background-color: linear-gradient(180deg, #09BDB6 0%, #44B1BE 100%); }
   .top .box {
     top: 5%;
     left: 5%; }
@@ -114,6 +116,17 @@ main .teacher .box {
   border-radius: 60px; }
 main .contact {
   border-radius: 100px; }
+
+.nav-open {
+  display: none; }
+
+.close-icon {
+  display: none;
+  transition: 1s; }
+
+.open {
+  display: block;
+  transition: 1s; }
 
 @media screen and (max-width: 639px) {
   main .f-box {

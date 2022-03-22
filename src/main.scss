@@ -22,6 +22,14 @@ nav {
   background-repeat: no-repeat;
   padding-top: 55.5%;
 
+
+  nav {
+    a {
+      background-color: linear-gradient(180deg, #09BDB6 0%, #44B1BE 100%);
+    }
+  }
+
+
   .box {
     top: 5%;
     left: 5%;
@@ -83,6 +91,21 @@ main {
     border-radius: 100px;
   }
 }
+
+.nav-open {
+  display: none;
+}
+
+.close-icon {
+  display: none;
+  transition: 1s;
+}
+
+.open {
+  display: block;
+  transition: 1s;
+}
+
 
 @media screen and (max-width: 639px) {
 

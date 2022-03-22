@@ -14,12 +14,34 @@ for (let i = 0; i < jsSmoothScroll.length; i++){
     const position = rect + offset;
 
     window.scrollTo({
-      top: position,
+      top: position + -120,
       behavior: 'smooth',
     });
 
   });
-
 }
 
+const openIcon = document.getElementById('open-icon');
+const closeIcon = document.getElementById('close-icon');
+const openMenu = document.getElementById('nav-open');
 
+
+
+
+closeIcon.addEventListener('click', () => {
+  openMenu.classList.toggle('open');
+  openIcon.style.display = 'block';
+  closeIcon.style.display = 'none';
+});
+
+openIcon.addEventListener('click', () => {
+  openMenu.classList.toggle('open');
+  openIcon.style.display = 'none';
+  closeIcon.style.display = 'block';
+});
+
+openMenu.addEventListener('click', () => {
+  openMenu.classList.remove('open');
+  openIcon.style.display = 'block';
+  closeIcon.style.display = 'none';
+})

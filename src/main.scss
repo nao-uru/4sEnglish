@@ -107,28 +107,20 @@ main {
 }
 
 
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 430px) {
 
   main {
-
-    .f-box {
-      border-radius: 0px;
-    }
-
-
-    .contact {
-      border-radius: 0px;
-    }
-
-    .teacher {
+    .text {
       .box {
-        width: 95%;
-        border-radius: 0px;
+        width: 96%;
       }
     }
   }
+
   
 }
+
+
 @media screen and (max-width: 639px) {
 
   main {

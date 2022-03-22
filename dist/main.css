@@ -69,6 +69,9 @@ body {
       padding: 20px 3px; }
   main .contact {
     border-radius: 0px; } }
+@media screen and (max-width: 430px) {
+  .top .main-title {
+    font-size: 32px; } }
 nav {
   width: 98%;
   margin: 0 auto; }
@@ -128,14 +131,9 @@ main .contact {
   display: block;
   transition: 1s; }
 
-@media screen and (max-width: 639px) {
-  main .f-box {
-    border-radius: 0px; }
-  main .contact {
-    border-radius: 0px; }
-  main .teacher .box {
-    width: 95%;
-    border-radius: 0px; } }
+@media screen and (max-width: 430px) {
+  main .text .box {
+    width: 96%; } }
 @media screen and (max-width: 639px) {
   main .f-box {
     border-radius: 0px; }

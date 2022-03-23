@@ -55,6 +55,10 @@ nav {
   }
 }
 
+.box2 {
+  background-color: rgba(238, 150, 149, 0.4);   
+}
+
 main {
 
   .f-box {
@@ -127,6 +131,13 @@ main {
 
     .f-box {
       border-radius: 0px;
+    }
+
+    .features {
+      .box {
+        width: 96%;
+        margin:  20px auto 0 auto;
+      }
     }
 
 

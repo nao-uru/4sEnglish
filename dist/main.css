@@ -19,9 +19,16 @@ body {
   margin: 0 auto; }
 
 @media screen and (max-width: 1279px) {
+  .top .box .title {
+    width: 500px; }
   .top .main-title {
     font-size: 70px; } }
 @media screen and (max-width: 1023px) {
+  .top .box .title {
+    width: 400px; }
+  .top .main-title {
+    font-size: 60px; }
+
   main .section {
     background-position: center; }
   main .text .box {
@@ -53,6 +60,8 @@ body {
 
   main .point .box {
     width: 300px; }
+  main .point .text-box {
+    width: 96%; }
   main .f-box {
     border-radius: 0px; }
   main .section {
@@ -65,7 +74,7 @@ body {
     border-radius: 0px; } }
 @media screen and (max-width: 430px) {
   .top .main-title {
-    font-size: 44px;
+    font-size: 30px;
     width: fit-content;
     letter-spacing: -2px; } }
 nav {
@@ -98,6 +107,9 @@ nav {
   .top .main-title {
     bottom: 3%;
     right: 0; }
+
+.box2 {
+  background-color: rgba(238, 150, 149, 0.4); }
 
 main .f-box {
   border-radius: 50px; }
@@ -133,6 +145,9 @@ main .contact {
 @media screen and (max-width: 639px) {
   main .f-box {
     border-radius: 0px; }
+  main .features .box {
+    width: 96%;
+    margin: 20px auto 0 auto; }
   main .contact {
     border-radius: 0px; }
   main .teacher .box {

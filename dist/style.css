@@ -657,6 +657,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 20rem;
 }
 
+.max-h-screen {
+  max-height: 100vh;
+}
+
 .w-full {
   width: 100%;
 }
@@ -699,6 +703,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 40%;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-1\/6 {
   width: 16.666667%;
 }
@@ -709,10 +717,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-4\/5 {
   width: 80%;
-}
-
-.w-11 {
-  width: 2.75rem;
 }
 
 .table-auto {
@@ -935,6 +939,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.px-20 {
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .pt-20 {
@@ -1222,11 +1231,6 @@ Ensure the default browser behavior of the `hidden` attribute.
        object-fit: cover;
   }
 
-  .lg\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .lg\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -1245,16 +1249,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .lg\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
-  }
-
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
   }
 
   .lg\:pt-14 {
@@ -1603,6 +1597,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 0.5rem;
   }
 
+  .sm\:pt-0 {
+    padding-top: 0px;
+  }
+
   .sm\:text-center {
     text-align: center;
   }
@@ -1673,6 +1671,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .xs\:mr-1 {
     margin-right: 0.25rem;
+  }
+
+  .xs\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .xs\:w-32 {

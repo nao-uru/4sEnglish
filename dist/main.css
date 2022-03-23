@@ -23,9 +23,9 @@ body {
     width: 500px; }
   .top .main-title {
     font-size: 70px; } }
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1032px) {
   .top .box .title {
-    width: 400px; }
+    width: 350px; }
   .top .main-title {
     font-size: 60px; }
 
@@ -36,6 +36,8 @@ body {
   main .point .box {
     width: 600px; } }
 @media screen and (max-width: 767px) {
+  .top .box .title {
+    width: fit-content; }
   .top .main-title {
     font-size: 55px; }
 

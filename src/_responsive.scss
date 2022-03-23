@@ -14,13 +14,13 @@
   
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1032px) {
 
   .top {
 
     .box {
       .title {
-        width: 400px;
+        width: 350px;
       }
     }
 
@@ -55,6 +55,13 @@
 @media screen and (max-width: 767px) {
 
   .top {
+
+    .box {
+      .title {
+        width: fit-content;
+      }
+    }
+
     .main-title {
       font-size: 55px;
     }

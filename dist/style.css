@@ -1415,6 +1415,22 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 10rem;
   }
 
+  .sm\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
+  .sm\:ml-8 {
+    margin-left: 2rem;
+  }
+
+  .sm\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .sm\:ml-2 {
+    margin-left: 0.5rem;
+  }
+
   .sm\:block {
     display: block;
   }
@@ -1463,6 +1479,24 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 50%;
   }
 
+  .sm\:w-3 {
+    width: 0.75rem;
+  }
+
+  .sm\:w-2 {
+    width: 0.5rem;
+  }
+
+  .sm\:w-28 {
+    width: 7rem;
+  }
+
+  .sm\:w-fit {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .sm\:flex-col {
     flex-direction: column;
   }
@@ -1483,8 +1517,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     justify-content: center;
   }
 
+  .sm\:rounded-3xl {
+    border-radius: 1.5rem;
+  }
+
+  .sm\:rounded-2xl {
+    border-radius: 1rem;
+  }
+
   .sm\:border-4 {
     border-width: 4px;
+  }
+
+  .sm\:border-2 {
+    border-width: 2px;
   }
 
   .sm\:px-3 {
@@ -1557,6 +1603,11 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 1rem;
   }
 
+  .sm\:py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
   .sm\:pl-8 {
     padding-left: 2rem;
   }
@@ -1599,6 +1650,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:pt-0 {
     padding-top: 0px;
+  }
+
+  .sm\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
+  .sm\:pr-1 {
+    padding-right: 0.25rem;
+  }
+
+  .sm\:pr-2 {
+    padding-right: 0.5rem;
+  }
+
+  .sm\:pr-0 {
+    padding-right: 0px;
+  }
+
+  .sm\:text-left {
+    text-align: left;
   }
 
   .sm\:text-center {
@@ -1677,8 +1748,20 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 1.5rem;
   }
 
+  .xs\:mr-3 {
+    margin-right: 0.75rem;
+  }
+
+  .xs\:ml-4 {
+    margin-left: 1rem;
+  }
+
   .xs\:w-32 {
     width: 8rem;
+  }
+
+  .xs\:w-2\/5 {
+    width: 40%;
   }
 
   .xs\:rounded-2xl {
@@ -1709,6 +1792,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     padding-bottom: 2rem;
   }
 
+  .xs\:pr-0 {
+    padding-right: 0px;
+  }
+
+  .xs\:text-center {
+    text-align: center;
+  }
+
   .xs\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -1727,5 +1818,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .xs\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .xs\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 }

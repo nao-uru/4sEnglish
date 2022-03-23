@@ -61,7 +61,8 @@ body {
   main .point .box {
     width: 300px; }
   main .point .text-box {
-    width: 96%; }
+    width: 96%;
+    border-radius: 20px; }
   main .f-box {
     border-radius: 0px; }
   main .section {

@@ -81,10 +81,10 @@ body {
     width: fit-content;
     letter-spacing: -2px; } }
 nav {
-  width: 98%;
+  width: 99%;
   margin: 0 auto; }
   nav img {
-    width: 450px; }
+    width: 400px; }
   nav .btn {
     background: linear-gradient(180deg, #09BDB6 0%, #44B1BE 100%); }
 

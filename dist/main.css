@@ -134,6 +134,8 @@ main .point .text-box {
   border-radius: 50px; }
 main .teacher .box {
   border-radius: 60px; }
+main .teacher .teacher-img {
+  filter: drop-shadow(8px 8px 0px #EE9695); }
 main .contact {
   border-radius: 100px; }
 

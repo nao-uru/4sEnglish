@@ -99,6 +99,10 @@ main {
     .box {
       border-radius: 60px;
     }
+
+    .teacher-img {
+      filter: drop-shadow(8px 8px 0px $cPink);
+    }
   }
 
   .contact {

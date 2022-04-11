@@ -627,6 +627,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 24rem;
 }
 
+.mr-9 {
+  margin-right: 2.25rem;
+}
+
 .block {
   display: block;
 }

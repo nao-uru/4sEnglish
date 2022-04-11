@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "TAILWIND_MODE=watch npx tailwindcss build src/style.css -o dist/style.css -w",
+    "dev": "npx tailwindcss build src/style.css -o dist/style.css -w",
     "build": "cross-env NODE_ENV=production tailwindcss build src/styles.css -o dist/styles.css",
     "sass": "sass src/main.scss:dist/main.css -w"
   },  

@@ -2,176 +2,265 @@ body {
   background-color: white;
   color: #131313;
   font-family: 'Noto Sans JP', sans-serif;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .container-xl {
   width: 90%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .container-l {
   width: 80%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .container-m {
   max-width: 1000px;
   min-width: 62.5%;
   padding: 0 0px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 @media screen and (max-width: 1279px) {
   .top .box .title {
-    width: 500px; }
+    width: 500px;
+  }
   .top .main-title {
-    font-size: 70px; } }
+    font-size: 70px;
+  }
+}
+
 @media screen and (max-width: 1032px) {
   .top .box .title {
-    width: 350px; }
+    width: 350px;
+  }
   .top .main-title {
-    font-size: 60px; }
-
+    font-size: 60px;
+  }
   main .section {
-    background-position: center; }
+    background-position: center;
+  }
   main .text .box {
-    width: 90%; }
+    width: 90%;
+  }
   main .point .box {
-    width: 600px; } }
+    width: 600px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .top .box .title {
-    width: fit-content; }
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
   .top .main-title {
-    font-size: 55px; }
-
+    font-size: 55px;
+  }
   .container-xl {
     width: 100%;
-    margin: 0 auto; }
-
+    margin: 0 auto;
+  }
   .container-l {
     width: 95%;
-    margin: 0 auto; }
-
+    margin: 0 auto;
+  }
   .contaienr-m {
     word-wrap: 80%;
-    margin: 0 auto; } }
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 639px) {
   .container-l {
     width: 90%;
-    margin: 0 auto; }
-
+    margin: 0 auto;
+  }
   .top .main-title {
-    font-size: 50px; }
-
+    font-size: 50px;
+  }
   main .point .box {
-    width: 300px; }
+    width: 300px;
+  }
   main .point .text-box {
     width: 96%;
-    border-radius: 20px; }
+    border-radius: 20px;
+  }
   main .f-box {
-    border-radius: 0px; }
+    border-radius: 0px;
+  }
   main .section {
-    background-position: right; }
+    background-position: right;
+  }
   main .program table {
-    width: 95%; }
-    main .program table tbody td {
-      padding: 20px 3px; }
+    width: 95%;
+  }
+  main .program table tbody td {
+    padding: 20px 3px;
+  }
   main .contact {
-    border-radius: 0px; } }
+    border-radius: 0px;
+  }
+}
+
 @media screen and (max-width: 430px) {
   .top .main-title {
     font-size: 30px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
-    letter-spacing: -2px; } }
+    letter-spacing: -2px;
+  }
+}
+
 nav {
   width: 99%;
-  margin: 0 auto; }
-  nav img {
-    width: 400px; }
-  nav .btn {
-    background: linear-gradient(180deg, #09BDB6 0%, #44B1BE 100%); }
+  margin: 0 auto;
+}
+
+nav img {
+  width: 400px;
+}
+
+nav .btn {
+  background: -webkit-gradient(linear, left top, left bottom, from(#09BDB6), to(#44B1BE));
+  background: linear-gradient(180deg, #09BDB6 0%, #44B1BE 100%);
+}
 
 .top {
   background-image: url(../src/imgs/h-back.png);
   background-size: contain;
   background-repeat: no-repeat;
-  padding-top: 55.5%; }
-  .top nav a {
-    background-color: linear-gradient(180deg, #09BDB6 0%, #44B1BE 100%); }
-  .top .box {
-    top: 5%;
-    left: 5%; }
-  .top .title {
-    width: 540px;
-    background-color: rgba(255, 255, 255, 0.7);
-    box-shadow: 11px 11px 43px rgba(190, 190, 190, 0.57); }
-  .top h1 {
-    font-size: 100px;
-    line-height: 70%;
-    text-shadow: 12px 12px 5px rgba(146, 146, 146, 0.25);
-    font-family: 'Poppins', sans-serif; }
-  .top .main-title {
-    bottom: 3%;
-    right: 0; }
+  padding-top: 55.5%;
+}
+
+.top nav a {
+  background-color: linear-gradient(180deg, #09BDB6 0%, #44B1BE 100%);
+}
+
+.top .box {
+  top: 5%;
+  left: 5%;
+}
+
+.top .title {
+  width: 540px;
+  background-color: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 11px 11px 43px rgba(190, 190, 190, 0.57);
+          box-shadow: 11px 11px 43px rgba(190, 190, 190, 0.57);
+}
+
+.top h1 {
+  font-size: 100px;
+  line-height: 70%;
+  text-shadow: 12px 12px 5px rgba(146, 146, 146, 0.25);
+  font-family: 'Poppins', sans-serif;
+}
+
+.top .main-title {
+  bottom: 3%;
+  right: 0;
+}
 
 .box2 {
-  background-color: rgba(238, 150, 149, 0.4); }
+  background-color: rgba(238, 150, 149, 0.4);
+}
 
 main .f-box {
-  border-radius: 50px; }
+  border-radius: 50px;
+}
+
 main .section {
   background-image: url(../src/imgs/s-back.png);
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+}
+
 main .merit-img {
   background-image: url(../src/imgs/income.png);
   background-size: cover;
-  background-repeat: no-repeat; }
-  main .merit-img .box {
-    background-color: rgba(255, 255, 255, 0.8); }
+  background-repeat: no-repeat;
+}
+
+main .merit-img .box {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
 main .point h4 {
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+}
+
 main .point .box {
-  width: 95%; }
+  width: 95%;
+}
+
 main .point .text-box {
-  border-radius: 50px; }
+  border-radius: 50px;
+}
+
 main .teacher .box {
-  border-radius: 60px; }
+  border-radius: 60px;
+}
+
 main .teacher .teacher-img {
-  filter: drop-shadow(8px 8px 0px #EE9695); }
+  -webkit-filter: drop-shadow(8px 8px 0px #EE9695);
+          filter: drop-shadow(8px 8px 0px #EE9695);
+}
+
 main .contact {
-  border-radius: 100px; }
+  border-radius: 100px;
+}
 
 .nav-open {
-  display: none; }
+  display: none;
+}
 
 .close-icon {
   display: none;
-  transition: 1s; }
+  -webkit-transition: 1s;
+  transition: 1s;
+}
 
 .open {
   display: block;
-  transition: 1s; }
+  -webkit-transition: 1s;
+  transition: 1s;
+}
 
 @media screen and (max-width: 430px) {
   main .text .box {
-    width: 96%; } }
+    width: 96%;
+  }
+}
+
 @media screen and (max-width: 639px) {
   main .f-box {
-    border-radius: 0px; }
+    border-radius: 0px;
+  }
   main .features .box {
     width: 96%;
-    margin: 20px auto 0 auto; }
+    margin: 20px auto 0 auto;
+  }
   main .contact {
-    border-radius: 0px; }
+    border-radius: 0px;
+  }
   main .teacher .box {
     width: 95%;
-    border-radius: 0px; } }
+    border-radius: 0px;
+  }
+}
+
 @media screen and (max-width: 1279px) {
   .top .title {
-    width: 400px; }
+    width: 400px;
+  }
   .top .box {
     top: 2%;
-    left: 2%; }
-
+    left: 2%;
+  }
   nav img {
-    width: 300px; } }
-
+    width: 300px;
+  }
+}
 /*# sourceMappingURL=main.css.map */

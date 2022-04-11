@@ -599,6 +599,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 4rem;
 }
 
+.ml-16 {
+  margin-left: 4rem;
+}
+
 .mr-6 {
   margin-right: 1.5rem;
 }
@@ -609,18 +613,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-96 {
   margin-top: 24rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
-.ml-10 {
-  margin-left: 2.5rem;
-}
-
-.ml-16 {
-  margin-left: 4rem;
 }
 
 .block {
@@ -721,10 +713,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-56 {
   width: 14rem;
-}
-
-.w-4\/5 {
-  width: 80%;
 }
 
 .table-auto {
@@ -1349,16 +1337,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-top: 1rem;
   }
 
-  .md\:ml-0 {
-    margin-left: 0px;
-  }
-
-  .md\:ml-10 {
-    margin-left: 2.5rem;
-  }
-
   .md\:ml-4 {
     margin-left: 1rem;
+  }
+
+  .md\:mt-2 {
+    margin-top: 0.5rem;
   }
 
   .md\:flex {
@@ -1762,12 +1746,12 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-right: 0.25rem;
   }
 
-  .xs\:ml-4 {
-    margin-left: 1rem;
-  }
-
   .xs\:ml-0 {
     margin-left: 0px;
+  }
+
+  .xs\:ml-4 {
+    margin-left: 1rem;
   }
 
   .xs\:w-32 {

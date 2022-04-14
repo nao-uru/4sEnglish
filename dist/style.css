@@ -523,12 +523,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2rem;
 }
 
-.mr-10 {
-  margin-right: 2.5rem;
+.mr-9 {
+  margin-right: 2.25rem;
 }
 
-.ml-10 {
-  margin-left: 2.5rem;
+.ml-8 {
+  margin-left: 2rem;
 }
 
 .mt-10 {
@@ -587,16 +587,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: 1rem;
 }
 
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
 .mt-80 {
   margin-top: 20rem;
 }
 
 .mr-8 {
   margin-right: 2rem;
-}
-
-.ml-8 {
-  margin-left: 2rem;
 }
 
 .mt-16 {
@@ -625,10 +625,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mt-96 {
   margin-top: 24rem;
-}
-
-.mr-9 {
-  margin-right: 2.25rem;
 }
 
 .block {
@@ -729,10 +725,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-56 {
   width: 14rem;
-}
-
-.w-11 {
-  width: 2.75rem;
 }
 
 .table-auto {
@@ -1053,13 +1045,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   vertical-align: text-bottom;
 }
 
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .text-xl {
   font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -1086,11 +1083,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .font-bold {
@@ -1165,11 +1157,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .xl\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-  }
-
-  .xl\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
   }
 
   .xl\:text-xl {
